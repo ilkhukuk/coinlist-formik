@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 const CardView = ({ data }) => {
   const navigate = useNavigate();
@@ -14,7 +14,7 @@ const CardView = ({ data }) => {
       </div>
       <p className="d-flex flex-column">
         <span> Günlük Değişim: </span>
-        <span className={data.changePercent24Hr >= 0 ? "up" : "down"}>
+        <span className={data.changePercent24Hr >= 0 ? 'up' : 'down'}>
           % {Number(data.changePercent24Hr).toFixed(2)}
         </span>
       </p>

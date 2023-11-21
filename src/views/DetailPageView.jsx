@@ -1,11 +1,14 @@
-import millify from "millify";
-import { Line, Bar } from "react-chartjs-2";
+import millify from 'millify';
+import { Chart as Chartjs } from 'chart.js/auto';
+import { Line, Bar } from 'react-chartjs-2';
 
 const DetailPageView = ({ model }) => {
   return (
     <div>
       <h3 className="text-center">
-        <span className="me-3 fs-4 fw-bold">{model?.coin?.symbol}</span>
+        <span className="me-3 fs-4 fw-bold">
+          {model?.coin?.symbol}
+        </span>
         <span className="fs-3 text-warning">{model?.coin?.name}</span>
       </h3>
       <div className="row my-4">

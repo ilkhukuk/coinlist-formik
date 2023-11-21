@@ -1,7 +1,7 @@
-import { useFormik } from "formik";
-import { schema } from "../schema";
-import { v4 } from "uuid";
-import { useNavigate } from "react-router-dom";
+import {useFormik} from "formik";
+import {schema} from "../schema";
+import {v4} from "uuid";
+import {useNavigate} from "react-router-dom";
 
 const LoginPage = () => {
   const navigate = useNavigate();
@@ -21,7 +21,7 @@ const LoginPage = () => {
       await new Promise((resolve) => setTimeout(resolve, 1900));
 
       // kullanıcyı lokale gönder
-      localStorage.setItem("user", JSON.stringify({ ...values, id: v4() }));
+      localStorage.setItem("user", JSON.stringify({...values, id: v4()}));
 
       // anasyafaya yönlendir
       navigate("/home");
@@ -38,7 +38,7 @@ const LoginPage = () => {
       <div className="container">
         <div className="logo">
           <img src="/c-logo.png" alt="logo" />
-          <h2>Coinmania</h2>
+          <h2>ilkCoin Start</h2>
         </div>
 
         {/* form alanı */}
@@ -82,8 +82,8 @@ const inputs = [
 ];
 
 // Input Alanı Bileşeni
-const InputField = ({ formik, data }) => {
-  const { label, name, type } = data;
+const InputField = ({formik, data}) => {
+  const {label, name, type} = data;
 
   return (
     <div>

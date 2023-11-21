@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
+import {useEffect, useState} from "react";
 import DetailPageView from "../views/DetailPageView";
 import axios from "axios";
-import { useParams } from "react-router-dom";
-import { DetailModel } from "./../models/DetailModel";
+import {useParams} from "react-router-dom";
+import {DetailModel} from "./../models/DetailModel";
 
 const DetailPageController = () => {
   const params = useParams();

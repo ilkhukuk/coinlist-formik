@@ -1,4 +1,4 @@
-# COIN PROJECT
+# FORMIK -YUP - COIN PROJECT
 
 ## USED
 - formik
@@ -9,6 +9,15 @@
 - bootstrap
 - sass
 - uuid
+- chart.js
+- react-chartjs-2
 - react-icons
 
-`npm i formik yup react-router-dom axios millify bootstrap sass uuid react-icons`
+## CONTACT
+-ilkhuku@gmail.com
+-https://www.linkedin.com/in/ilkhukuk/
+
+## SCREENSHOT
+![](formik.gif)
+
+`npm i formik yup react-router-dom axios millify bootstrap sass uuid chart.js react-chartjs-2 react-icons`

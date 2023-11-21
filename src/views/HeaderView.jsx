@@ -5,12 +5,12 @@ const HeaderView = () => {
     <header>
       <Link to={'/home'} className="h-logo">
         <img src="/c-logo.png" alt="logo" />
-        <h3 className="text-white">ilkCoinmania</h3>
+        <h3 className="text-white">ilkCoin</h3>
       </Link>
 
       <div className="links">
         <NavLink to={'/'}>Giriş Yap</NavLink>
-        <NavLink to={'/home '}>Homepage</NavLink>
+        <NavLink to={'/home '}>Anasayfa</NavLink>
       </div>
     </header>
   );
