@@ -14,8 +14,8 @@
 - react-icons
 
 ## CONTACT
--ilkhuku@gmail.com
--https://www.linkedin.com/in/ilkhukuk/
+- ilkhukuk@gmail.com
+- https://www.linkedin.com/in/ilkhukuk/
 
 ## SCREENSHOT
 ![](formik.gif)
